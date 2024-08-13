@@ -446,7 +446,7 @@ GameObject:
   - component: {fileID: 187892114}
   - component: {fileID: 187892113}
   - component: {fileID: 187892112}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -551,7 +551,7 @@ GameObject:
   - component: {fileID: 287456082}
   - component: {fileID: 287456081}
   - component: {fileID: 287456080}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 391043648}
   - component: {fileID: 391043647}
   - component: {fileID: 391043646}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1623,7 +1623,7 @@ GameObject:
   - component: {fileID: 997187355}
   - component: {fileID: 997187354}
   - component: {fileID: 997187353}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2150,7 +2150,7 @@ GameObject:
   - component: {fileID: 1276989394}
   - component: {fileID: 1276989393}
   - component: {fileID: 1276989392}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2256,7 +2256,7 @@ GameObject:
   - component: {fileID: 1303657510}
   - component: {fileID: 1303657509}
   - component: {fileID: 1303657508}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2502,7 +2502,6 @@ GameObject:
   - component: {fileID: 1427935828}
   - component: {fileID: 1427935827}
   - component: {fileID: 1427935826}
-  - component: {fileID: 1427935829}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2584,19 +2583,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 34.877, y: 0, z: 0}
---- !u!114 &1427935829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1427935825}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a91a2ecdb6059c642bf5c6a9df89dd53, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _target: {fileID: 2065710116}
 --- !u!1 &1557067211
 GameObject:
   m_ObjectHideFlags: 0
@@ -3040,7 +3026,7 @@ GameObject:
   - component: {fileID: 1923465898}
   - component: {fileID: 1923465897}
   - component: {fileID: 1923465896}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3463,6 +3449,7 @@ GameObject:
   - component: {fileID: 2065710114}
   - component: {fileID: 2065710113}
   - component: {fileID: 2065710117}
+  - component: {fileID: 2065710119}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -3511,7 +3498,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 840e33ee83c443d429877ea9b80b2f62, type: 2}
+  - {fileID: 2100000, guid: 24dc594b9b2a2fb48bfa5fbd10d42cfa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3583,6 +3570,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2065710119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065710112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fcfbc11cf1b4744898f4ed0c0bf2c80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballSpeed: 2
+  jumpSpeed: 5.5
 --- !u!1 &2087053271
 GameObject:
   m_ObjectHideFlags: 0
