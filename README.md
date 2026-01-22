@@ -11,9 +11,10 @@ Consists of three exercises:
 1. Created Folder Scenes for all the scene asset files.
 2. Created Folder Materials for pathways, terrain, trees, and the ball.
 3. Created Folder Scripts and has PlayerController which will be attached to the ball.
+4. Updated Texture in ex02.
 
 ## Objectives:
 
 1. [x] ex00
 2. [x] ex01.
-3. [ ] ex02.
+3. [x] ex02.
