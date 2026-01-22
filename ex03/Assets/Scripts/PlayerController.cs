@@ -18,5 +18,13 @@ public class PlayerController : MonoBehaviour
             GetComponent<Rigidbody>().linearVelocity += jumpSpeed * Vector3.up;
         }
 	}
+
+    void OnTriggerEnter(Collider other)
+	{
+		if (other != null && other.gameObject.tag == "Lava")
+		{
+			Debug.Log("You Lost!");
+		}
+	}
     #endregion
 }
